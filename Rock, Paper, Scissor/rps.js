@@ -1,12 +1,10 @@
 function final(yourChoice) {
     var mychoice, boatchoice;
     mychoice = yourChoice.id;
-    boatchoice = numberToChoice(randomnum());
-    console.log(boatchoice);
+    boatchoice = numberToChoice(randomnum()); 
     results = decideWinner(mychoice, boatchoice);
-    console.log(results);
     message = finalMessege(results);
-    console.log(message);
+   
     displaypart(yourChoice.id, boatchoice, message);
 }
 
