@@ -1,0 +1,26 @@
+.contener
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.flex-box
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border: 2px solid blue;
+    margin: 15px;
+}
+.flex-box img
+{
+    margin: 10px;
+    border-radius: 50%;
+}
+.flex-box img:hover
+{
+    box-shadow: 0px 10px 50px rgb(54, 23, 235);
+}

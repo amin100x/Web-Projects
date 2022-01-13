@@ -1,0 +1,31 @@
+.contener
+{
+    border: 2px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 20px auto;
+}
+.flex-box
+{
+    display: flex;
+    margin: 5px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+
+.flex-box img
+{
+    box-shadow: 0px 10px 50px rgb(133, 111, 111);
+    margin: 10px;
+    border: 1px solid black;
+}
+h2
+{
+    background-color: yellow;
+    display: block;
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
