@@ -4,7 +4,6 @@ function final(yourChoice) {
     boatchoice = numberToChoice(randomnum()); 
     results = decideWinner(mychoice, boatchoice);
     message = finalMessege(results);
-   
     displaypart(yourChoice.id, boatchoice, message);
 }
 
