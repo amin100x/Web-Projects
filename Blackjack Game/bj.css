@@ -1,0 +1,42 @@
+.contener
+{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+.flex-row-1 , .flex-row-2, .flex-row-3
+{
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-around;
+}
+
+
+.flex-row-1, .flex-row-2
+{
+    background: rgb(16, 80, 40);
+    color: white;
+}
+.flex-row-2 div
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+.your-box ,.dealer-box
+{
+    border: 2px solid black;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    height: 350px; 
+} 
+table,th
+{
+    padding: 5px;
+    border: 1px solid black;
+}
