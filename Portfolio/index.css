@@ -1,0 +1,134 @@
+:root
+{
+    --mainColor:#eaeaea;
+    --secondaryColor:#fff;
+
+    --borderColor:#c1c1c1;
+
+    --mainText:black;
+    --secondaryText:#4b5156;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,strong
+{
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    column-width: 500;
+}
+p,li,span, label, input,textarea
+{
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+    color: #17a2b8;
+}
+ul
+{
+    list-style: none;
+}
+h1{ font-size: 56px;}
+h2{ font-size: 36px;}
+h3{ font-size: 28px;}
+h4{ font-size: 24px;}
+h5{ font-size: 20px;}
+h6{ font-size: 16px;}
+
+
+
+
+.s1
+{
+    background-color: var(--mainColor);
+    border-bottom:1px solid var(--borderColor);
+}
+.s2
+{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+}
+.main-container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.greeting-wrapper
+{
+    display: grid;
+    min-height: 10em;
+    text-align: center;
+    align-items: center;
+
+}
+
+.intro-wrapper
+{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.57);
+border-radius:5px 5px 0 0  ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
+    grid-template-areas:
+        'nav-wrapper nav-wrapper'
+        'left-col right-col'
+    ;
+
+
+}
+.nav-wrapper
+{
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+
+}
+.left-col
+{
+    grid-area: left-col;
+
+}
+.right-col
+{
+    grid-area: right-col;
+
+}
+.dots
+{
+    display: flex;
+    padding: 10px;
+}
+.browser-dot
+{
+    background-color: #17a2b8;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 5px; 
+}
+#d1{ background-color:#FC6058 ;}
+#d2{ background-color:#FEC02F ;}
+#d3{ background-color:#2ACA3E ;}
+@media  screen and (max-width:1200px){
+
+    .main-container{
+        max-width: 95%;
+    }
+   
+}
